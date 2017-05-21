@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Head section contains metadata for the document. -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="demo, html, javscript, css">
+    <title>Demo Page HTML, JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Page 1: FORMS</h1>
+    <div class="forms">
+      <h2>Form 1 (submitting the form will simply echo back the data):</h2>
+      <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="GET">
+        <label>Search for:</label>
+        <input type="text" name="search" placeholder="My search term"></input>
+        <input type="submit" value="SEARCH!"></input>
+      </form>
+    </div>
+    <br>
+    <div class="forms">
+      <h2>Form 2 (submitting the form will simply echo back the data):</h2>
+      <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="POST">
+        <label>Write here:</label>
+        <input type="text" name="input" placeholder="Placeholder test"></input>
+        <input type="submit" value="GO!"></input>
+      </form>
+    </div>
+    <br>
+    <div class="forms">
+      <h2>Form 3:</h2>
+      <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="POST">
+        <label>Enter your first name:</label>
+        <input type="text" name="first_name" placeholder=""><br>
+        <label>Enter your last name:</label>
+        <input type="text" name="last_name" placeholder=""><br>
+        <label>Enter your age:</label>
+        <input type="number" name="age" placeholder=""><br>
+        <label>Amount1, value = 100</label>
+        <input type="radio" name="amount" value="100"><br>
+        <label>Amount2, value = 200</label>
+        <input type="radio" name="amount" value="200"><br>
+        <label>Amount3, value = 300</label>
+        <input type="radio" name="amount" value="300"><br>        
+        <label>Do you want a candy with that?</label>
+        <input type="checkbox" name="candy"><br>
+        <input type="submit" value="SUBMIT DATA!">
+        
+        
+      </form>
+    </div>
+  </body>
+</html>

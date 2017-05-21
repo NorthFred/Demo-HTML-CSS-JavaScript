@@ -1,0 +1,63 @@
+/* Styles go here */
+
+h1 {
+  color: yellow;
+  font-family: Verdana;
+  font-size: 40px;
+  background-color: black;
+}
+
+h2, h3 {
+  font: 22px arial;
+  color: red;
+  font-family: Verdana;
+}
+
+body {
+  background: #F1F1F1;
+}
+
+.block1 {
+  height: 250px;
+  background: #FFFFFF;
+  border-style: double;
+  border-color: red;
+  margin: 20px;
+  padding: 5px 5px 5px 5px;
+}
+
+.block2 {
+  color: green;
+  background: #FFFFFF;
+  border-style: solid;
+  border-color:black;
+  margin: 20px;
+  padding: 5px 5px 5px 5px;
+}
+
+.block3, .block4 {
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px 5px 5px 5px;
+  background: url("http://www.planwallpaper.com/static/images/824183-green-wallpaper.jpg") fixed center;
+}
+
+.forms {
+  background: #FFFFFF;
+  border:1px solid black;
+  padding: 5px 5px 5px 5px;
+}
+
+input[type=text] {
+  font: 11px arial;
+  color: green;
+  border: 1px solid red;
+}
+
+a:visited {
+  color: #00DD11;
+}
+
+a:hover {
+  color: #FF2211;
+}

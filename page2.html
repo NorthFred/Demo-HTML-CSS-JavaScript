@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Head section contains metadata for the document. -->
+    <meta charset="utf-8" />
+    <meta name="keywords" content="demo, html, javscript, css" />
+    <title>Demo Page HTML, JavaScript</title>
+    <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style2.css" />
+    <script src="buttonscript.js"></script>
+  </head>
+
+  <body>
+    <h1>Page 2: BUTTONS AND ACTIONS</h1>
+    <textarea id="txtarea">This page makes use of different buttons and functions. The stylesheet is different than in 2 previous pages!
+    The first 3 buttons are grouped within the same class. The last 3 buttons also belong to a (different) class.
+    Button1 is assigned a function in the classic HTML way.
+    Button2 is using JS DOM-element's onclick attribute.
+    Button3 is using the addEventListener method.
+    Button4 will respond with the addEventListener when moving the mouse over it.
+    </textarea>
+    <div>
+      <button class="btngroup1" id="btn1" onclick="hello()">Button1</button>
+      <button class="btngroup1" id="btn2">Button2</button>
+      <button class="btngroup1" id="btn3">Button3</button>
+    </div>
+    <div>
+      <button class="btngroup2" id="btn4">Button4</button>
+      <button class="btngroup2" id="btn5">Button5</button>
+      <button class="btngroup2" id="btn6">Button6</button>
+    </div>
+  </body>
+
+</html>

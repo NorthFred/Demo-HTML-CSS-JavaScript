@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Head section contains metadata for the document. -->
+    <meta charset="utf-8" />
+    <meta name="keywords" content="demo, html, javscript, css" />
+    <title>Demo Page HTML, JavaScript</title>
+    <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style2.css" />
+    <script src="calculatescript.js"></script>
+  </head>
+
+  <body>
+    <h1>Page 4: PLAYING WITH FORMS AND FUNCTIONS</h1>
+    <div>
+      <h3>Calculation with 2 numbers and output to same HTML page.</h3>
+      <form class="form1">
+        <label>Enter number: </label><input type="text" id="nr1">
+        <label>Enter number: </label><input type="text" id="nr2">
+        <input id="calculate" type="submit" ><br><br><br>
+        <label>Result of the magic calculation: </label><output type="text" id="result">result</output>
+      </form>
+    </div>
+    <div>
+      <form class="form2>">
+        
+        
+      </form>
+      
+      
+      
+      <form class="classic method">
+        <h3>Another method to calculate with forms:</h3>
+        <label>Enter number: </label><input type="text" name="no1">
+        <label>Enter number: </label><input type="text" name="no2">
+        <input type="submit" onclick="calculate(no1, no2)">
+        <br>
+        <script>
+          function calculate(no1, no2) {
+            var result = no1 * no2;
+            console.log(result);
+            
+            document.getElementById('jaha').innerHTML=(result);
+          }
+        </script>
+        <output id="jaha" type="text" name="result">result</output>
+        
+        
+      </form>
+    </div>
+  </body>
+
+</html>

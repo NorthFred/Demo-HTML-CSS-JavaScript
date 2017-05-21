@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Head section contains metadata for the document. -->
+    <meta charset="utf-8" />
+    <meta name="keywords" content="demo, html, javscript, css" />
+    <title>Demo Page HTML, JavaScript</title>
+    <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>DEMO PAGE!</h1>
+    <h2>HTML, CSS, JavaScript,...</h2>
+    <p>Example of a link:</p>
+    <a href="http://www.google.fi">Search Engine</a>
+    <p>This link contains and id tag:</p>
+    <a id="news" href="http://www.nu.nl">News Site with id tag 'news'</a>
+    <p>This paragraph (text) line does not contain an id tag.</p>
+    <p id="modify">This paragraph (text) line contains id tag "modify" for modification purpose later on.</p>
+    <a href="./page1.html">Jump to the next page.</a>
+    <a href="./page2.html">Jump to page 2.</a>
+    <a href="./page3.html">Jump to page 3.</a>
+    <a href="./page4.html">Jump to page 4.</a>
+    <div class="block1">
+      <p>The text in this block is divided under a class named "block1".
+         Below is a button.  When pressing the button, the text will be styled.
+         However, afterwards the button will be disabled (unless page is refreshed).
+      </p>
+      <p id="tag">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Sed posuere interdum sem. Quisque ligula eros ullamcorper quis,
+        lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu.
+      </p>
+      <button id="stylize" onclick="stylize()">Stylize text</button>
+    </div>
+    <div class="block2">
+      <p>The text in this block is divided under a different class "block2".
+        Pressing the button above will not affect this text.
+     </p>
+      <p>
+       Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit.
+       Sed augue orci, lacinia eu tincidunt et eleifend nec lacus.
+       Donec ultricies nisl ut felis, suspendisse potenti.
+     </p>
+    </div>
+    <div class="block3">
+      <h3>Example of an unordered list:</h3>
+      <ul>
+        <li>Bullet line 1</li>
+        <li>Bullet line 2</li>
+        <li>Bullet line 3</li>
+      </ul>
+    </div>
+    <br />
+    <div class="block4">
+      <h3>Example of an ordered list:</h3>
+      <ol>
+        <li>Most important!</li>
+        <li>Second important!</li>
+        <li>Third important!</li>
+        <li>Last but not least!</li>
+      </ol>
+    </div>
+    <div class="tableblock">
+      <h3>Example of a table.  The table will receive it style from the CSS template:</h3>
+      <table>
+        <tbody>
+          <tr>
+            <th>Header for 1st column.
+         </th>
+            <th>Header for next column.
+       </th>
+          </tr>
+          <tr>
+            <td>Length:</td>
+            <td>200 cm</td>
+          </tr>
+          <tr>
+            <td>Weight:</td>
+            <td>80 kg</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="text_semantics">
+      <h3>Semantics is not layout!</h3>
+      <p>
+        <em>Emphasis</em>
+ on a word, turns it cursive.
+               <strong>THIS</strong>
+ is a very important word.
+       Let me cite:         <cite>"The grass is always greener on the other side."</cite>
+        <br />
+
+       This is some code:
+               <code>boolean answer = false;</code>
+
+       Let's make this         <small>small...</small>
+      </p>
+    </div>
+    <div class="images">
+      <h3>Some images in HTML:</h3>
+      <img src="http://2.bp.blogspot.com/-sa78ZsrfLuQ/TvERXbHgc6I/AAAAAAAAAfA/LMsi9GEmnt4/s1600/trololo-lolo-trololo.jpg" height="50" />
+      <img src="http://baranovsky.com/blog/image.axd?picture=WindowsLiveWriter/TherealstorybehindtheTrololoRickRollvide/1D77F112/TheTrololoMan.jpg" height="50" />
+      <p>This image can be clicked and will open in a new browser tab:</p>
+      <a href="https://ironyisapoormaster.files.wordpress.com/2012/05/trololo-face.jpg" target="_blank">
+        <img src="https://ironyisapoormaster.files.wordpress.com/2012/05/trololo-face.jpg" height="50" />
+      </a>
+    </div>
+    <div class="videoblock">
+      <h3>Here is a video in HTML5:</h3>
+      <video controls="" width="240">
+        <source src="http://www.html5videoplayer.net/videos/toystory.mp4" type="video/mp4"></source>
+      </video>
+    </div>
+    <div class="audioblock">
+      <h3>Audio in HTML5:</h3>
+      <audio controls="">
+        <source src="https://ia802508.us.archive.org/5/items/testmp3testfile/mpthreetest.mp3" type="audio/mpeg"></source>
+      </audio>
+    </div>
+  </body>
+
+</html>
